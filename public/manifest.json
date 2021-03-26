@@ -1,0 +1,43 @@
+{
+  "name": "Cabana 2021",
+  "short_name": "Cabana",
+  "theme_color": "#4DBA87",
+  "icons": [
+    {
+      "src": "128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+    
+  ],
+  "share_target":
+  {
+    "action": "/share",
+    "params":
+    {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff"
+}
